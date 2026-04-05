@@ -128,3 +128,21 @@
     @apply font-sans;
   }
 }
+body {
+  background-color: #f8f5f0;
+}
+
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+/* Smooth feel */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Glass effect helper */
+.glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+}
