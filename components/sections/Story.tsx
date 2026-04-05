@@ -21,7 +21,7 @@ export default function Story() {
           className="relative w-full h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-lg"
         >
           <Image
-            src="/images/2006-SARV-Img-10.webp"
+            src="/images/SARV-home.jpg"
             alt="Sarv Story"
             fill
             className="object-cover"
