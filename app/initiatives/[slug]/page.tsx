@@ -7,7 +7,7 @@ const data = [
     slug: "sakhi-saheli",
     title: "Sakhi Saheli",
     subtitle: "A Circle of Trust. A Journey of Self.",
-    image: "/images/2025-SARV-I-02.webp",
+    image: "/images/Sakhi Saheli.jpeg",
     intro: [
       "In many communities, women are often expected to prioritize others before themselves — quietly setting aside their own dreams, emotions, and identity.",
       "Sakhi Saheli creates a safe, non-judgmental space where women can speak freely, share their stories, and rediscover who they are beyond societal roles.",
@@ -27,7 +27,7 @@ const data = [
     slug: "sarv-shiksha",
     title: "Sarv Shiksha",
     subtitle: "Empowering every child through education.",
-    image: "/images/2025-SARV-I-05.webp",
+    image: "/images/Sarv Shiksha.jpeg",
     intro: [
       "Education is the most powerful tool for breaking the cycle of poverty.",
       "Sarv Shiksha ensures that every child, regardless of background, has access to quality education.",
@@ -45,7 +45,7 @@ const data = [
     slug: "saksham-shakti",
     title: "Saksham Shakti",
     subtitle: "Skill development for independence.",
-    image: "/images/2025-SARV-I-03.webp",
+    image: "/images/Saksham Shakti.jpeg",
     intro: [
       "Empowerment begins with self-reliance and opportunity.",
       "Saksham Shakti equips women with practical skills that enable financial independence.",
@@ -63,7 +63,7 @@ const data = [
     slug: "sarv-saanjh",
     title: "Sarv Saanjh",
     subtitle: "Serving meals with dignity.",
-    image: "/images/2025-SARV-I-01.webp",
+    image: "/images/Sarv Saanjh.jpeg",
     intro: [
       "Hunger is not just a lack of food but a lack of dignity.",
       "Sarv Saanjh ensures that no one sleeps hungry by providing nutritious meals.",
@@ -81,7 +81,7 @@ const data = [
     slug: "sarv-sahayata",
     title: "Sarv Sahayata",
     subtitle: "Support in times of crisis.",
-    image: "/images/2025-SARV-I-04.webp",
+    image: "/images/Sarv Sahayata.jpeg",
     intro: [
       "In times of crisis, timely help can change lives.",
       "Sarv Sahayata provides emergency relief and long-term rehabilitation support.",
@@ -99,7 +99,7 @@ const data = [
     slug: "sarv-vatika",
     title: "Sarv Vatika",
     subtitle: "Nurturing nature for tomorrow.",
-    image: "/images/2025-SARV-I-07.webp",
+    image: "/images/Sarv Vatika.jpeg",
     intro: [
       "Environmental sustainability is essential for future generations.",
       "Sarv Vatika promotes eco-friendly practices and green living.",
@@ -117,7 +117,7 @@ const data = [
     slug: "sarv-swasthya",
     title: "Sarv Swasthya",
     subtitle: "Health and hygiene for all.",
-    image: "/images/2025-SARV-I-06.webp",
+    image: "/images/Sarv Swasthya.jpeg",
     intro: [
       "Good health is the foundation of a strong society.",
       "Sarv Swasthya provides access to healthcare and promotes hygiene awareness.",
@@ -166,7 +166,7 @@ export default async function InitiativePage({
         </div>
 
         <div className="flex justify-center lg:justify-end">
-          <div className="relative w-[700px] h-[300px] rounded-2xl overflow-hidden shadow-lg group">
+          <div className="relative w-[380px] h-[300px] rounded-2xl overflow-hidden shadow-lg group">
             <Image
               src={item.image}
               alt={item.title}
