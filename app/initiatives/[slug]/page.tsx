@@ -27,7 +27,7 @@ const data = [
     slug: "sarv-shiksha",
     title: "Sarv Shiksha",
     subtitle: "Empowering every child through education.",
-    image: "/images/Sarv Shiksha.jpeg",
+    image: "/images/SARV Shiksha.jpeg",
     intro: [
       "Education is the most powerful tool for breaking the cycle of poverty.",
       "Sarv Shiksha ensures that every child, regardless of background, has access to quality education.",
@@ -63,7 +63,7 @@ const data = [
     slug: "sarv-saanjh",
     title: "Sarv Saanjh",
     subtitle: "Serving meals with dignity.",
-    image: "/images/Sarv Saanjh.jpeg",
+    image: "/images/SARV Saanjh.jpeg",
     intro: [
       "Hunger is not just a lack of food but a lack of dignity.",
       "Sarv Saanjh ensures that no one sleeps hungry by providing nutritious meals.",
@@ -99,7 +99,7 @@ const data = [
     slug: "sarv-vatika",
     title: "Sarv Vatika",
     subtitle: "Nurturing nature for tomorrow.",
-    image: "/images/Sarv Vatika.jpeg",
+    image: "/images/SARV Vatika.jpeg",
     intro: [
       "Environmental sustainability is essential for future generations.",
       "Sarv Vatika promotes eco-friendly practices and green living.",
@@ -117,7 +117,7 @@ const data = [
     slug: "sarv-swasthya",
     title: "Sarv Swasthya",
     subtitle: "Health and hygiene for all.",
-    image: "/images/Sarv Swasthya.jpeg",
+    image: "/images/SARV Swasthya.jpeg",
     intro: [
       "Good health is the foundation of a strong society.",
       "Sarv Swasthya provides access to healthcare and promotes hygiene awareness.",
