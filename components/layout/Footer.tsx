@@ -24,7 +24,7 @@ export default function Footer() {
             </h2>
 
             <p className="text-[#73b745] font-bold text-xs uppercase tracking-[3px] mb-6">
-              One World | One Heart
+              Where Compassion Meets Action.
             </p>
 
             <p className="text-white/70 text-sm leading-relaxed">
