@@ -1,17 +1,31 @@
-const Footer = () => {
-    return (
-        <footer className="bg-dark-brown text-[#d7ccc8] py-[60px] pb-[30px] mt-auto">
-            <div className="container mx-auto px-4 text-center">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 text-left hidden">
-                    {/* Placeholder for footer widgets if needed later, currently hidden to match legacy simplified footer */}
-                </div>
+<div className="flex gap-4 mt-6">
+  {/* LinkedIn (Link aana baaki hai) */}
+  <a 
+    href="#" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="w-9 h-9 bg-[#f38b27] rounded-full flex items-center justify-center text-white hover:scale-110 transition"
+  >
+    <FaLinkedinIn />
+  </a>
 
-                <div className="border-t border-white/10 pt-8 mt-8">
-                    <p className="text-sm opacity-70">&copy; {new Date().getFullYear()} SARV Foundation. All Rights Reserved.</p>
-                </div>
-            </div>
-        </footer>
-    );
-};
+  {/* Instagram */}
+  <a 
+    href="https://www.instagram.com/teamsarv?igsh=b2xycmM5M3E4dTJn" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="w-9 h-9 bg-[#f38b27] rounded-full flex items-center justify-center text-white hover:scale-110 transition"
+  >
+    <FaInstagram />
+  </a>
 
-export default Footer;
+  {/* Facebook */}
+  <a 
+    href="https://www.facebook.com/people/Sarv-Foundation/61589716634279/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="w-9 h-9 bg-[#f38b27] rounded-full flex items-center justify-center text-white hover:scale-110 transition"
+  >
+    <FaFacebookF />
+  </a>
+</div>
