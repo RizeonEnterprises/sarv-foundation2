@@ -11,7 +11,7 @@ export default function AboutPage() {
       {/* HERO */}
       <PageHero
         title="About Sarv Foundation"
-        subtitle="One World | One Heart"
+        subtitle="Where Compassion Meets Action"
         backgroundImage="/images/hero.jpg"
       />
 
