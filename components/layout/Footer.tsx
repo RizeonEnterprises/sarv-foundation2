@@ -1,4 +1,9 @@
-<div className="flex gap-4 mt-6">
+import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
+
+export default function Footer() {
+  return (
+    <footer>
+  <div className="flex gap-4 mt-6">
   {/* LinkedIn (Link aana baaki hai) */}
   <a 
     href="#" 
@@ -29,3 +34,6 @@
     <FaFacebookF />
   </a>
 </div>
+    </footer>
+  );
+}
