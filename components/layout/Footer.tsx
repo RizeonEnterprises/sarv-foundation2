@@ -2,7 +2,7 @@ import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-white pt-12 pb-6 border-t-4 border-[#f38b27] mt-10">
+    <footer className="w-full bg-white pt-12 pb-6 border-t-4 border-[#04B533] mt-10">
       <div className="container mx-auto px-4 md:px-8">
         
         {/* Top Section: Brand & Legal */}
@@ -13,7 +13,7 @@ export default function Footer() {
             <h2 className="text-3xl font-extrabold text-gray-900 mb-2">
               SARV Foundation
             </h2>
-            <p className="text-[#f38b27] font-semibold text-lg tracking-wide">
+            <p className="text-[#04B533] font-semibold text-lg tracking-wide">
               Empowering Lives, Nurturing Humanity
             </p>
           </div>
@@ -25,16 +25,16 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-gray-700 font-medium">
               <li className="flex items-center justify-center md:justify-end gap-2">
-                <span className="text-[#f38b27] text-sm">✔</span> 12A Registered
+                <span className="text-[#04B533] text-sm">✔</span> 12A Registered
               </li>
               <li className="flex items-center justify-center md:justify-end gap-2">
-                <span className="text-[#f38b27] text-sm">✔</span> 80G Certified
+                <span className="text-[#04B533] text-sm">✔</span> 80G Certified
               </li>
               <li className="flex items-center justify-center md:justify-end gap-2">
-                <span className="text-[#f38b27] text-sm">✔</span> DARPAN Registered
+                <span className="text-[#04B533] text-sm">✔</span> DARPAN Registered
               </li>
               <li className="flex items-center justify-center md:justify-end gap-2">
-                <span className="text-[#f38b27] text-sm">✔</span> CSR-Compliant
+                <span className="text-[#04B533] text-sm">✔</span> CSR-Compliant
               </li>
             </ul>
           </div>
@@ -54,7 +54,7 @@ export default function Footer() {
               href="#" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="w-10 h-10 bg-[#f38b27] rounded-full flex items-center justify-center text-white hover:bg-[#d9781f] hover:-translate-y-1 transition-all duration-300 shadow-md"
+              className="w-10 h-10 bg-[#04B533] rounded-full flex items-center justify-center text-white hover:bg-[#03982a] hover:-translate-y-1 transition-all duration-300 shadow-md"
             >
               <FaLinkedinIn size={18} />
             </a>
@@ -64,7 +64,7 @@ export default function Footer() {
               href="https://www.instagram.com/teamsarv?igsh=b2xycmM5M3E4dTJn" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="w-10 h-10 bg-[#f38b27] rounded-full flex items-center justify-center text-white hover:bg-[#d9781f] hover:-translate-y-1 transition-all duration-300 shadow-md"
+              className="w-10 h-10 bg-[#04B533] rounded-full flex items-center justify-center text-white hover:bg-[#03982a] hover:-translate-y-1 transition-all duration-300 shadow-md"
             >
               <FaInstagram size={18} />
             </a>
@@ -74,7 +74,7 @@ export default function Footer() {
               href="https://www.facebook.com/people/Sarv-Foundation/61589716634279/" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="w-10 h-10 bg-[#f38b27] rounded-full flex items-center justify-center text-white hover:bg-[#d9781f] hover:-translate-y-1 transition-all duration-300 shadow-md"
+              className="w-10 h-10 bg-[#04B533] rounded-full flex items-center justify-center text-white hover:bg-[#03982a] hover:-translate-y-1 transition-all duration-300 shadow-md"
             >
               <FaFacebookF size={18} />
             </a>
@@ -82,7 +82,7 @@ export default function Footer() {
 
           {/* Right Column: Developed by */}
           <div className="text-gray-600 font-medium text-sm text-center md:text-right">
-            Developed by <span className="text-[#f38b27] font-bold tracking-wide">Rizeonenterprises</span>
+            Developed by <span className="text-[#04B533] font-bold tracking-wide">Rizeonenterprises</span>
           </div>
 
         </div>
