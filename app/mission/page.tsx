@@ -37,6 +37,17 @@ export default function MissionPage() {
     },
   ];
 
+  // Images ka array
+  const galleryImages = [
+    "/images/05102026-SARV-File-01.jpeg",
+    "/images/05102026-SARV-File-02.jpeg",
+    "/images/05102026-SARV-File-03.jpeg",
+    "/images/05102026-SARV-File-04.jpeg",
+    "/images/05102026-SARV-File-05.jpeg",
+    "/images/05102026-SARV-File-06.jpeg",
+    "/images/05102026-SARV-File-07.jpeg",
+  ];
+
   return (
     <PageTransition>
 
@@ -52,7 +63,6 @@ export default function MissionPage() {
         <div className="max-w-6xl mx-auto">
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
             {missions.map((item, i) => (
               <motion.div
                 key={i}
@@ -81,7 +91,6 @@ export default function MissionPage() {
                 </p>
               </motion.div>
             ))}
-
           </div>
 
           {/* QUOTE */}
@@ -89,6 +98,33 @@ export default function MissionPage() {
             <h3 className="italic text-2xl md:text-3xl text-[#7b5e57] font-medium">
               "Every dream matters. Every step counts."
             </h3>
+          </div>
+
+          {/* IMAGE GALLERY SECTION */}
+          <div className="mt-24">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold text-gray-800">Our Work In Action</h2>
+              <p className="text-gray-600 mt-2">Glimpses of our mission coming to life</p>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {galleryImages.map((src, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="overflow-hidden rounded-2xl shadow-md"
+                >
+                  <img
+                    src={src}
+                    alt={`Mission gallery image ${index + 1}`}
+                    className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300 cursor-pointer"
+                  />
+                </motion.div>
+              ))}
+            </div>
           </div>
 
         </div>
