@@ -57,7 +57,16 @@ const data = [
       { title: "Financial Literacy", desc: "Understanding savings and budgeting." },
       { title: "Entrepreneurship", desc: "Support for starting small businesses." },
     ],
-  },
+    gallery: [
+      "/images/05102026-SARV-File-01.jpeg",
+      "/images/05102026-SARV-File-02.jpeg",
+      "/images/05102026-SARV-File-03.jpeg",
+      "/images/05102026-SARV-File-04.jpeg",
+      "/images/05102026-SARV-File-05.jpeg",
+      "/images/05102026-SARV-File-06.jpeg",
+      "/images/05102026-SARV-File-07.jpeg"
+    ]
+  }
 
   {
     slug: "sarv-saanjh",
