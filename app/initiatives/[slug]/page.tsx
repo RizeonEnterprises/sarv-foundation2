@@ -66,7 +66,7 @@ const data = [
       "/images/05102026-SARV-File-06.jpeg",
       "/images/05102026-SARV-File-07.jpeg"
     ]
-  }
+  },
 
   {
     slug: "sarv-saanjh",
