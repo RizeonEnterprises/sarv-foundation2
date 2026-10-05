@@ -22,7 +22,6 @@ const data = [
       { title: "Joyful Retreats", desc: "Reconnect with self and inner happiness." },
     ],
   },
-
   {
     slug: "sarv-shiksha",
     title: "Sarv Shiksha",
@@ -40,7 +39,6 @@ const data = [
       { title: "Mentorship", desc: "After-school guidance and academic support." },
     ],
   },
-
   {
     slug: "saksham-shakti",
     title: "Saksham Shakti",
@@ -67,7 +65,6 @@ const data = [
       "/images/05102026-SARV-File-07.jpeg"
     ]
   },
-
   {
     slug: "sarv-saanjh",
     title: "Sarv Saanjh",
@@ -85,7 +82,6 @@ const data = [
       { title: "Community Dining", desc: "Respectful and inclusive meal spaces." },
     ],
   },
-
   {
     slug: "sarv-sahayata",
     title: "Sarv Sahayata",
@@ -103,7 +99,6 @@ const data = [
       { title: "Preparedness", desc: "Disaster awareness and training." },
     ],
   },
-
   {
     slug: "sarv-vatika",
     title: "Sarv Vatika",
@@ -121,7 +116,6 @@ const data = [
       { title: "Eco Awareness", desc: "Educating people about sustainability." },
     ],
   },
-
   {
     slug: "sarv-swasthya",
     title: "Sarv Swasthya",
@@ -153,7 +147,7 @@ export default async function InitiativePage({
   if (!item) return notFound();
 
   return (
-    <div className="pt-28 px-6 bg-[#f8f6f3] min-h-screen">
+    <div className="pt-28 px-6 pb-20 bg-[#f8f6f3] min-h-screen">
 
       {/* HEADER */}
       <div className="max-w-3xl mx-auto text-center mb-16">
@@ -165,7 +159,6 @@ export default async function InitiativePage({
 
       {/* TEXT LEFT + IMAGE RIGHT */}
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center mb-20">
-
         <div className="space-y-5">
           {item.intro.map((p, i) => (
             <p key={i} className="text-gray-700 text-lg leading-relaxed border-l-4 border-black/20 pl-4">
@@ -196,7 +189,7 @@ export default async function InitiativePage({
       )}
 
       {/* MODERN CARDS */}
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 mb-20">
         {item.activities.map((a, i) => (
           <div
             key={i}
@@ -207,6 +200,32 @@ export default async function InitiativePage({
           </div>
         ))}
       </div>
+
+      {/* IMAGE GALLERY SECTION */}
+      {item.gallery && item.gallery.length > 0 && (
+        <div className="max-w-6xl mx-auto border-t border-gray-200 pt-16">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-gray-800">Our Gallery</h2>
+            <p className="text-gray-600 mt-2">Glimpses of {item.title} in action</p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {item.gallery.map((imgSrc, index) => (
+              <div 
+                key={index} 
+                className="relative w-full h-48 overflow-hidden rounded-xl shadow-md group"
+              >
+                <Image
+                  src={imgSrc}
+                  alt={`${item.title} gallery image ${index + 1}`}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
     </div>
   );
